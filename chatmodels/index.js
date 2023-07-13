@@ -1,5 +1,10 @@
 import { ChatOpenAI } from "langchain/chat_models/openai";
 import { HumanMessage, SystemMessage } from "langchain/schema";
+import {
+    SystemMessagePromptTemplate,
+    HumanMessagePromptTemplate,
+    ChatPromptTemplate,
+  } from "langchain/prompts";
 import * as dotenv from 'dotenv';
 
 dotenv.config()
